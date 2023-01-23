@@ -10,7 +10,18 @@ function getValues() {
             {
                 icon: 'error',
                 title: 'Oops!',
-                text: 'Only positive integers are allowed!'
+                text: 'Only numbers are allowed!'
+            }
+
+        );
+
+    } else if (loanAmount < 0 || termLength < 0 || interestRate < 0) {
+
+        Swal.fire(
+            {
+                icon: 'error',
+                title: 'Oops!',
+                text: 'Only positive numbers are allowed!'
             }
 
         );
