@@ -198,12 +198,23 @@
             <!-- description -->
             <div class="col-12 col-lg-4 text-light">
                 <p>This code is structured in three functions:</p>
+                <hr />
                 <p><code>getValues()</code></p>
-                <p>This function retrieves all the user inputs <code>loanAmount</code>, <code>termLength</code>, and <code>interestRate</code>, and ensures they're all positive integers. It then passes those values as parameters to the next function:</p>
+                <p>This function retrieves all the user inputs <code>loanAmount</code>, <code>termLength</code>, and
+                    <code>interestRate</code>, and ensures they're all positive integers. It then passes those values as
+                    parameters to the next function:</p>
+                <hr />
                 <p><code>calculateMortgage()</code></p>
-                <p>This function creates a variable <code>monthlyPayment</code> to store the monthly payment formula and creates an empty array <code>tableInfo</code> for the objects to be stored in. Next, a <code>for loop</code> iterates through the various values needed for the table and stores them in an object <code>tableRow</code>, which is then passed to the array. Once the loop is complete, <code>tableInfo</code> is passed to the final function:</p>
+                <p>This function creates a variable <code>monthlyPayment</code> to store the monthly payment formula and
+                    creates an empty array <code>tableInfo</code> for the objects to be stored in. Next, a
+                    <code>for loop</code> iterates through the various values needed for the table and stores them in an
+                    object <code>tableRow</code>, which is then passed to the array. Once the loop is complete,
+                    <code>tableInfo</code> is passed to the final function:</p>
+                <hr />
                 <p><code>displayInfo()</code></p>
-                <p>This function gets the table template from the HTML and iterates through <code>tableInfo</code>, placing each value inside each object onto a separate cell in the table row. Finally, the summary at the top of the page is updated with their respective values.</p>
+                <p>This function gets the table template from the HTML and iterates through <code>tableInfo</code>,
+                    placing each value inside each object onto a separate cell in the table row. Finally, the summary at
+                    the top of the page is updated with their respective values.</p>
 
             </div>
         </div>
