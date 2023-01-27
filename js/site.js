@@ -76,7 +76,7 @@ function calculateMortgage(amount, term, rate) {
 
 }
 
-function displayInfo(info, term, amount) {
+function displayInfo(info, term) {
     let paymentAmount = document.getElementById('paymentAmount');
     let totalPrincipal = document.getElementById('totalPrincipal');
     let totalInterest = document.getElementById('totalInterest');
